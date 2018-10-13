@@ -1,14 +1,28 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>JavaScript Website</title>
-</head>
-<body>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>JavaScript Website</title>
+    </head>
+    <body>
+        <input type = "text" id = "one">
+        <input type = "text" id = "two">
+        <button onclick = "myMessage()" id = "doSomething">Click Me</button>
+
+
+
+
+
+
+        
+    </body>
     <script>
-        console.log("Hello World");
+        function myMessage(){
+            var message = "This is a message";
+            console.log(message);
+            alert(message);
+        }
     </script>
-</body>
 </html>
